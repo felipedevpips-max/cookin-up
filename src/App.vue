@@ -13,6 +13,7 @@ import ConteudoPrincipal from './components/ConteudoPrincipal.vue';
 <template>
       <Banner />
       <ConteudoPrincipal />
+      
 
      
     </template>
