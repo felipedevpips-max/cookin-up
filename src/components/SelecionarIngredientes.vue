@@ -1,17 +1,18 @@
 <script lang="ts">
-import { obterCategorias } from '@/http/index';
-import type ICategoria from '@/interfaces/ICategoria';
+import { obterCategorias } from '@/http/index'
+import type ICategoria from '@/interfaces/ICategoria'
+import CardCategoria from './CardCategoria.vue'
 
-
-    export default {
+export default {
   data() {
     return {
-      categorias: [] as ICategoria[]
+      categorias: [] as ICategoria[],
     }
   },
   async created() {
-    this.categorias = await obterCategorias();
-  }
+    this.categorias = await obterCategorias()
+  },
+  components: { CardCategoria },
 }
 </script>
 
@@ -24,15 +25,12 @@ import type ICategoria from '@/interfaces/ICategoria';
     </p>
 
     <ul class="categorias">
-        <li v-for="categoria in categorias" :key="categoria.nome">
-            {{ categoria.nome }}
-        </li>
-
+      <li v-for="categoria in categorias" v-bind:key="categoria.nome">
+        <CardCategoria :categoria="categoria" />
+      </li>
     </ul>
 
-    <p class="paragrafo dica">
-      *Atenção: consideramos que você tem em casa sal, pimenta e água.
-    </p>
+    <p class="paragrafo dica">*Atenção: consideramos que você tem em casa sal, pimenta e água.</p>
   </section>
 </template>
 
@@ -44,7 +42,7 @@ import type ICategoria from '@/interfaces/ICategoria';
 }
 
 .titulo-ingredientes {
-  color: var(--verde-medio, #3D6D4A);
+  color: var(--verde-medio, #3d6d4a);
   display: block;
   margin-bottom: 1.5rem;
 }
