@@ -10,6 +10,13 @@ export default {
 </script>
 
 <template>
-  {{ categoria.nome }}
-  {{ categoria.imagem }}
+  <article class="categoria">
+    <header class="categoria__cabecalho">
+      <img
+        :src="`/imagens/icones/categorias_ingredientes/${categoria.imagem}`"
+        alt=""
+        class="categoria__imagem"
+      />
+    </header>
+  </article>
 </template>
