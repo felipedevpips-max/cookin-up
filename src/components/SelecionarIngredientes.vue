@@ -25,7 +25,7 @@ export default {
     </p>
 
     <ul class="categorias">
-      <li v-for="categoria in categorias" v-bind:key="categoria.nome">
+      <li v-for="categoria in categorias" v-bind:key="categoria.id">
         <CardCategoria :categoria="categoria" />
       </li>
     </ul>
