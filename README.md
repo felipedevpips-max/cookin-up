@@ -1,58 +1,52 @@
-# 🍲 Cookin-Up
+# 🍲 Cookin Up
 
-Um projeto front-end criado com **Vue 3 + Vite + TypeScript** para construir uma aplicação web moderna e reativa (template inicial).  
-Este README foi feito para apresentar, explicar e ajudar você ou outras pessoas a entenderem, testarem e contribuírem com o projeto.
-
----
-
-## 🚀 Descrição
-
-O **Cookin-Up** é um projeto baseado no template padrão do Vite com Vue 3.  
-Ele serve como base para desenvolver uma aplicação web com:
-
-✔️ Vue 3  
-✔ Vite (build super-rápido)  
-✔ TypeScript  
+Aplicação front-end desenvolvida com **Vue 3, Vite e TypeScript**, focada em aprendizado prático, organização de código e criação de uma base sólida para aplicações web modernas.
 
 
-## 🧩 Funcionalidades
+## 📌 Visão Geral
 
-No estado atual:
+O **Cookin Up** foi criado com o objetivo de praticar conceitos essenciais do desenvolvimento front-end moderno, utilizando o ecossistema do Vue 3 aliado ao desempenho do Vite e à segurança do TypeScript.
 
-✔️ Configuração inicial com Vite  
-✔ Suporte a TypeScript  
-✔ Estrutura organizada  
-✔ Scripts úteis para rodar/compilar o app
-
-
-
-## 🛠️ Tecnologias
-
-Esse projeto usa as seguintes tecnologias:
-
-| Tecnologia | Versão/Descrição |
-|------------|------------------|
-| 🏗️ Vite     | Build tool moderna |
-| 🟩 Vue 3     | Framework reativo |
-| 💻 TypeScript | Tipagem estática |
-| 🎨 CSS       | Estilos visuais |
+O projeto serve como base para futuras funcionalidades, priorizando:
+- Estrutura escalável
+- Código limpo
+- Boas práticas
+- Facilidade de manutenção
 
 ---
 
-## 💻 Como rodar o projeto
+## 🚀 Tecnologias Utilizadas
 
-Siga estes passos para instalar e executar o projeto localmente:
+- **Vue 3**
+- **Vite**
+- **TypeScript**
+- **HTML5**
+- **CSS3**
 
-### 📌 Pré-requisitos
+---
 
-Antes de começar, você precisa ter instalado no seu computador:
+## 🧠 Conceitos Praticados
 
-- Node.js (versão 14 ou superior)
-- npm ou yarn
+- Componentização com Vue
+- Configuração de ambiente com Vite
+- Tipagem estática com TypeScript
+- Organização de pastas
+- Scripts de build e desenvolvimento
+- Estrutura inicial para aplicações SPA
 
-### 📥 Instalação
+---
 
-Clone o projeto:
+## 📂 Estrutura do Projeto
 
-```bash
-git clone https://github.com/felipedevpips-max/cookin-up.git
+```txt
+cookin-up/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── views/
+│   ├── App.vue
+│   └── main.ts
+├── public/
+├── index.html
+├── package.json
+└── vite.config.ts
