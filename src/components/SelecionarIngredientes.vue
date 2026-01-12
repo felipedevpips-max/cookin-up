@@ -13,6 +13,7 @@ export default {
     this.categorias = await obterCategorias()
   },
   components: { CardCategoria },
+  emits: ['adicionarIngrediente'],
 }
 </script>
 
@@ -26,7 +27,10 @@ export default {
 
     <ul class="categorias">
       <li v-for="categoria in categorias" v-bind:key="categoria.id">
-        <CardCategoria :categoria="categoria" />
+        <CardCategoria
+          :categoria="categoria"
+          @adicionar-ingrediente="$emit('adicionarIngrediente', $event)"
+        />
       </li>
     </ul>
 
