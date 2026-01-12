@@ -31,7 +31,7 @@ export default {
   <main class="conteudo-principal">
     <SuaLista :ingredientes="ingredientes" />
 
-    <KeepAlive>
+    <KeepAlive include="SelecionarIngredientes">
       <SelecionarIngredientes
         v-if="conteudo === 'SelecionarIngredientes'"
         @adicionar-ingrediente="adicionarIngrediente"
@@ -41,6 +41,7 @@ export default {
 
       <MostrarReceitas
         v-else-if="conteudo === 'MostrarReceitas'"
+        :ingredientes="ingredientes"
         @editar-receitas="navegar('SelecionarIngredientes')"
       />
     </KeepAlive>
