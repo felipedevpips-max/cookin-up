@@ -1,42 +1,58 @@
-# cookin-up
+# 🍲 Cookin-Up
 
-This template should help get you started developing with Vue 3 in Vite.
+Um projeto front-end criado com **Vue 3 + Vite + TypeScript** para construir uma aplicação web moderna e reativa (template inicial).  
+Este README foi feito para apresentar, explicar e ajudar você ou outras pessoas a entenderem, testarem e contribuírem com o projeto.
 
-## Recommended IDE Setup
+---
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🚀 Descrição
 
-## Recommended Browser Setup
+O **Cookin-Up** é um projeto baseado no template padrão do Vite com Vue 3.  
+Ele serve como base para desenvolver uma aplicação web com:
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+✔️ Vue 3  
+✔ Vite (build super-rápido)  
+✔ TypeScript  
 
-## Type Support for `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🧩 Funcionalidades
 
-## Customize configuration
+No estado atual:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+✔️ Configuração inicial com Vite  
+✔ Suporte a TypeScript  
+✔ Estrutura organizada  
+✔ Scripts úteis para rodar/compilar o app
 
-## Project Setup
 
-```sh
-npm install
-```
 
-### Compile and Hot-Reload for Development
+## 🛠️ Tecnologias
 
-```sh
-npm run dev
-```
+Esse projeto usa as seguintes tecnologias:
 
-### Type-Check, Compile and Minify for Production
+| Tecnologia | Versão/Descrição |
+|------------|------------------|
+| 🏗️ Vite     | Build tool moderna |
+| 🟩 Vue 3     | Framework reativo |
+| 💻 TypeScript | Tipagem estática |
+| 🎨 CSS       | Estilos visuais |
 
-```sh
-npm run build
-```
+---
+
+## 💻 Como rodar o projeto
+
+Siga estes passos para instalar e executar o projeto localmente:
+
+### 📌 Pré-requisitos
+
+Antes de começar, você precisa ter instalado no seu computador:
+
+- Node.js (versão 14 ou superior)
+- npm ou yarn
+
+### 📥 Instalação
+
+Clone o projeto:
+
+```bash
+git clone https://github.com/felipedevpips-max/cookin-up.git
